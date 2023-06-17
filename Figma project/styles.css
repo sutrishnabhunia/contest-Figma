@@ -1,0 +1,172 @@
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  body {
+  font-family: 'Poppins', sans-serif;
+  }
+  
+  header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  }
+  
+  .logo {
+  font-size: 24px;
+  font-weight: bold;
+  }
+  
+  .search-bar input {
+  padding: 10px;
+  }
+  
+  .buttons button {
+  margin-left: 10px;
+  background-color: rgb(233, 233, 220);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  }
+  
+  .about {
+    background-color: black;
+    color: white;
+    padding: 50px;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .left-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .right-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .description {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .description img {
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .description p {
+    margin-bottom: 10px;
+  }
+  
+  .clock img {
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  button {
+    background-color: yellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+
+  .categories {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  }
+  .categories h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .category-card {
+  flex: 1;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  }
+  
+  .category-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  }
+  
+  .category-card p {
+  margin-bottom: 10px;
+  }
+  
+  .category-card button {
+  background-color: yellow;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  }
+  
+  footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  }
+  
+  .footer-section {
+  flex: 1;
+  }
+  
+  .footer-section h3 {
+  margin-bottom: 10px;
+  }
+  
+  .footer-section p,
+  .footer-section .sitemap {
+  font-size: 14px;
+  line-height: 1.5;
+  }
+  
+  .footer-section .sitemap li {
+  display: block;
+  margin-bottom: 5px;
+  }
+  
+  .footer-section .sitemap li a {
+  text-decoration: none;
+  color: white;
+  }
+  
+  .footer-section .social-icons a {
+  margin-right: 10px;
+  }
+  
+  .footer-section .social-icons img {
+  width: 20px;
+  height: 20px;
+  }
